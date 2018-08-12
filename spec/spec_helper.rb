@@ -1,5 +1,5 @@
 # Load RSpec and Capybara
-require 'rspec/rais'
+require 'rspec/rails'
 require 'capybara/rspec'
 require 'capybara/dsl'
 
