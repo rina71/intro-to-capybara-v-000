@@ -1,8 +1,9 @@
 <%# Write your code here! %>
 <html>
 <h>Welcome!</h>
-<form method="POST">
-  <p>Your name: <input type="text" name="name">
-  <input type="submit">
+<form action="/greet" method="POST">
+  <label for="name">Your name: </label>
+  <p><input type="text" name="name" id="name" /></p>
+  <input type="submit" value="submit/">
 
 </form>
